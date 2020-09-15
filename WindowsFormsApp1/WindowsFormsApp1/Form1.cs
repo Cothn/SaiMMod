@@ -27,10 +27,9 @@ namespace WindowsFormsApp1
         }
         
                 
-        private void findPeriod()
+        private int findPeriod()
         {
             RandomSequence = new List<double>();
-
 
             for (int i = 0; i < SEQUENCE_MAX_LENGTH; i++)
                 RandomSequence.Add(LemerRandom.Next());
@@ -73,6 +72,8 @@ namespace WindowsFormsApp1
                 textBox_period.Text = period.ToString();        // Период
                 textBox_no_period.Text = aperiod.ToString();    // Длина участка апериодичности
             }
+
+            return period;
         }
 
         
@@ -183,18 +184,45 @@ namespace WindowsFormsApp1
         
         private void calculateButton_Click(object sender, EventArgs e)
         {
-
             LemerRandom = new LemerRandomSequence(double.Parse(textBox_a.Text), double.Parse(textBox_m.Text), double.Parse(textBox_R0.Text));
             
             findPeriod();
-            
             drawHistogram();
             
             getStatValues();
             checkUniformityIndirect();
+
+            /*
+            //find a, m, R0 fo period >= 50000
+            double a = 1000, r0 = 3571, m = 100000;
+            LemerRandom = new LemerRandomSequence(a, m, r0);
+            while (findPeriod() < 50000)
+            {
+
+                m++;
+                if (m > 1000000)
+                {
+                    m = 1000;
+                    a++;
+                    if (a > 10000)
+                    {
+
+                        a = 1;
+                        r0++;
+                        if (r0 > 10000)
+                        {
+                            break;
+                        }
+                    }
+                }
+                LemerRandom = new LemerRandomSequence(a, m, r0);
+            }
+            textBox_a.Text = a.ToString();
+            textBox_m.Text = m.ToString();
+            textBox_R0.Text = r0.ToString();
+            */
             
             saveSequence("LemerRandomSequence.txt");
-
             RandomSequence.Clear();
             LemerRandom.Reset();
         }

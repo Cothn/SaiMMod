@@ -25,3 +25,4 @@ D:\RepositHub\SaiMMod\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\zh-cn\ZedGraph
 D:\RepositHub\SaiMMod\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\zh-tw\ZedGraph.WinForms.resources.dll
 D:\RepositHub\SaiMMod\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
 D:\RepositHub\SaiMMod\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+D:\RepositHub\SaiMMod\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources

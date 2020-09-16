@@ -98,13 +98,15 @@ namespace WindowsFormsApp1
                 if (RandomSequence[i] > xMax)
                     xMax = RandomSequence[i];
             }
-            double columnLength = (xMax - xMin)/columnCount;
-            
+            //double columnLength = (xMax - xMin)/columnCount;
+            //double columnLength = (xMax - xMin+ 0.1)/columnCount;
+            double columnLength = 1.0/columnCount;
             
             double[] frequency = new double[columnCount]; // Частота попаданий в интервал (высота столбца)
             double[] X_values = new double[columnCount];  // Значения по оси x
             
-            X_values[0] = 0.0245;
+            //X_values[0] = 0.0245;
+            X_values[0] = 0.005;
             for (int i = 1; i < columnCount; i++)
                 X_values[i] = X_values[i - 1] + columnLength;
             
@@ -229,7 +231,13 @@ namespace WindowsFormsApp1
 
         private void label6_Click(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+return;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 newForm = new Form2();
+            newForm.ShowDialog();
         }
     }
 }

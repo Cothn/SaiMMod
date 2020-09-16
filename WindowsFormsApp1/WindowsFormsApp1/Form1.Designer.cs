@@ -56,6 +56,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.calculateButton = new System.Windows.Forms.Button();
             this.zedGraphControl1 = new ZedGraph.ZedGraphControl();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -175,27 +176,27 @@
                 System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.label4.Location = new System.Drawing.Point(17, 84);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(32, 17);
+            this.label4.Size = new System.Drawing.Size(28, 17);
             this.label4.TabIndex = 8;
-            this.label4.Text = "σ = ";
+            this.label4.Text = "σ =";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(16, 60);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(29, 15);
+            this.label5.Size = new System.Drawing.Size(26, 15);
             this.label5.TabIndex = 7;
-            this.label5.Text = "D = ";
+            this.label5.Text = "D =";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(16, 28);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
+            this.label6.Size = new System.Drawing.Size(35, 15);
             this.label6.TabIndex = 6;
-            this.label6.Text = "Mx = ";
+            this.label6.Text = "Mx =";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // groupBox3
@@ -298,7 +299,7 @@
             // 
             this.calculateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F,
                 System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
-            this.calculateButton.Location = new System.Drawing.Point(333, 206);
+            this.calculateButton.Location = new System.Drawing.Point(321, 176);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(128, 42);
             this.calculateButton.TabIndex = 14;
@@ -313,7 +314,7 @@
             this.zedGraphControl1.IsEnableVPan = false;
             this.zedGraphControl1.IsEnableVZoom = false;
             this.zedGraphControl1.IsShowContextMenu = false;
-            this.zedGraphControl1.Location = new System.Drawing.Point(487, 21);
+            this.zedGraphControl1.Location = new System.Drawing.Point(486, 21);
             this.zedGraphControl1.Name = "zedGraphControl1";
             this.zedGraphControl1.ScrollGrace = 0D;
             this.zedGraphControl1.ScrollMaxX = 0D;
@@ -326,12 +327,23 @@
             this.zedGraphControl1.TabIndex = 15;
             this.zedGraphControl1.UseExtendedPrintDialog = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(321, 243);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(127, 42);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Распределения";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1044, 430);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.zedGraphControl1);
             this.Controls.Add(this.calculateButton);
             this.Controls.Add(this.groupBox4);
@@ -382,5 +394,6 @@
         private System.Windows.Forms.Button calculateButton;
         private System.Windows.Forms.TextBox textBox_D;
         private ZedGraph.ZedGraphControl zedGraphControl1;
+        private System.Windows.Forms.Button button1;
     }
 }

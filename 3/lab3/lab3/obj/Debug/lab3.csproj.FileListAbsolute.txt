@@ -1,0 +1,16 @@
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\3\lab3\lab3\bin\Debug\lab3.exe
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\3\lab3\lab3\bin\Debug\lab3.pdb
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\3\lab3\lab3\obj\Debug\lab3.csprojResolveAssemblyReference.cache
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\3\lab3\lab3\obj\Debug\lab3.Form1.resources
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\3\lab3\lab3\obj\Debug\lab3.Properties.Resources.resources
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\3\lab3\lab3\obj\Debug\lab3.csproj.GenerateResource.Cache
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\3\lab3\lab3\obj\Debug\lab3.exe
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\3\lab3\lab3\obj\Debug\lab3.pdb
+D:\RepositHub\SaiMMod\3\lab3\lab3\obj\Debug\lab3.exe
+D:\RepositHub\SaiMMod\3\lab3\lab3\obj\Debug\lab3.pdb
+D:\RepositHub\SaiMMod\3\lab3\lab3\bin\Debug\lab3.exe
+D:\RepositHub\SaiMMod\3\lab3\lab3\bin\Debug\lab3.pdb
+D:\RepositHub\SaiMMod\3\lab3\lab3\obj\Debug\lab3.Form1.resources
+D:\RepositHub\SaiMMod\3\lab3\lab3\obj\Debug\lab3.Properties.Resources.resources
+D:\RepositHub\SaiMMod\3\lab3\lab3\obj\Debug\lab3.csproj.GenerateResource.Cache
+D:\RepositHub\SaiMMod\3\lab3\lab3\obj\Debug\lab3.csprojResolveAssemblyReference.cache
